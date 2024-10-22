@@ -4,7 +4,7 @@
 .dancing-script-text {
     font-family: "Dancing Script", cursive;
     font-optical-sizing: auto;
-    font-style: normal;
+    font-style: italic;
 }
 
 .inter-text {
@@ -18,6 +18,7 @@
 /* Shared styles */
 * {
     color: white;
+    margin: 0;
 }
 
 html,
@@ -31,9 +32,27 @@ body {
     margin: 0 auto;
 }
 
+/* Common all orange button */
+.common-orange-button {
+    border: none;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+}
+
+header {
+    background: linear-gradient(180deg,
+            rgb(17, 17, 17) 70%,
+            /* Solid color ends at 70% */
+            rgba(119, 119, 119, 0) 100%
+            /* Transparent at the bottom */
+        );
+}
+
+
 /* NavBar Styles */
 
 nav {
+    padding-top: 57px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -67,5 +86,128 @@ nav {
 
 .home-nav {
     border-radius: 46px;
+    background: rgb(230, 83, 60);
+}
+
+
+
+/* Banner Section Styles */
+
+.banner-section {
+    margin-top: 32px;
+
+
+}
+
+.banner-section-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-title-description-container {
+    max-width: 520px;
+}
+
+.banner-title-description-container h1 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 78px;
+    font-weight: 900;
+    text-align: left;
+    margin: 0;
+}
+
+.banner-title-description-container p {
+    padding: 28px 0;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+}
+
+.banner-title-description-container button {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding: 16px 40px;
+    border-radius: 42px;
+}
+
+.banner-button-container {
+    display: flex;
+    gap: 14px;
+}
+
+.banner-download-btn {
+    border: 1px solid white;
+    background: none;
+}
+
+.banner-img-container {
+    /* Banner Image Style */
+    position: relative;
+}
+
+.banner-img-container h1 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+.banner-img-container p {
+    margin-top: 5px;
+    color: rgba(255, 255, 255, 0.65);
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+.custom-img-card-1 {
+    position: absolute;
+    top: 125px;
+    right: -74px;
+    max-width: 193px;
+    padding: 16px 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.custom-img-card-2 {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 421px;
+    left: -113px;
+    max-width: 220px;
+    padding: 20px 23px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+    background: rgba(48, 48, 48, 0.54);
+}
+
+.banner-img-circle {
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
     background: rgb(230, 83, 60);
 }
