@@ -271,3 +271,18 @@ nav {
     font-size: 14px;
     font-weight: 400;
 }
+
+/* Run an Extra mile section styles */
+.run-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+}
+
+.run-img {
+    max-width: 366px;
+    border-radius: 18px;
+}
