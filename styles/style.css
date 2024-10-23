@@ -109,7 +109,7 @@ nav {
     background: rgb(230, 83, 60);
 }
 
-.hamburger{
+.hamburger {
     display: none;
 }
 
@@ -466,10 +466,11 @@ footer {
 @media (max-width: 576px) {
 
     /* Nav related */
-    .nav-list{
+    .nav-list {
         display: none;
     }
-    .hamburger{
+
+    .hamburger {
         display: block;
     }
 
@@ -505,4 +506,27 @@ footer {
         justify-content: space-between;
     }
 
+    /* Run an Extra mile section Responsive */
+    .run-container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: space-around;
+    }
+
+    .run-img{
+        width: 100%;
+    }
+
+    /* BMI Responsive */
+    .bmi-container {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        justify-content: space-between;
+    }
+
+    .full-width-input {
+        width: auto
+    }
 }
