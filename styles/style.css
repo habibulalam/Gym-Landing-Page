@@ -32,6 +32,26 @@ body {
     margin: 0 auto;
 }
 
+.common-sections {
+    max-width: 1060px;
+    width: 90%;
+    margin: 100px auto;
+}
+
+.common-sections-title {
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 14px;
+}
+
+.common-sections-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+}
+
 /* Common all orange button */
 .common-orange-button {
     border: none;
@@ -210,4 +230,44 @@ nav {
     width: 40px;
     border-radius: 100%;
     background: rgb(230, 83, 60);
+}
+
+
+/* Change your habit section styles */
+.change-habit-section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.change-habit-title-description {
+    margin-bottom: 52px;
+}
+
+.change-habit-all-cards-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.change-habit-cards {
+    text-align: center;
+}
+
+.change-habit-cards img {
+    border-radius: 100%;
+    margin-bottom: 30px;
+}
+
+.change-habit-cards h1 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.change-habit-cards p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
 }
