@@ -629,6 +629,10 @@ footer {
         gap: 20px;
         margin-bottom: 20px;
     }
+    
+    .meet-team-cards img{
+        width: 100%;
+    }
 
     /* Footer responsive */
     .container-for-flex {
