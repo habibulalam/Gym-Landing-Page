@@ -529,4 +529,12 @@ footer {
     .full-width-input {
         width: auto
     }
+
+    /* Meet team members  */
+    .meet-team-imgs-container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-bottom: 20px;
+    }
 }
