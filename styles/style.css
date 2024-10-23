@@ -286,3 +286,63 @@ nav {
     max-width: 366px;
     border-radius: 18px;
 }
+
+/* BMI Calculator section styles */
+
+.bmi-full-width-gray-container {
+    background: rgb(34, 34, 34);
+    border: 2px solid black;
+}
+
+.bmi-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+table {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+}
+
+th {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 17px;
+    text-align: left;
+}
+
+td {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 17px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.form{
+    width: fit-content;
+}
+
+input {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    margin-bottom: 12px;
+}
+select {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    margin-bottom: 12px;
+}
+
+.full-width-input{
+    width: 95%;
+}
