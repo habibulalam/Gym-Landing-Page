@@ -109,6 +109,9 @@ nav {
     background: rgb(230, 83, 60);
 }
 
+.hamburger{
+    display: none;
+}
 
 
 /* Banner Section Styles */
@@ -457,4 +460,49 @@ footer {
     line-height: 24px;
     letter-spacing: 0.3px;
     text-align: center;
+}
+
+/* Responsive starts */
+@media (max-width: 576px) {
+
+    /* Nav related */
+    .nav-list{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+    }
+
+    /* Banner related */
+    .banner-section-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .custom-img-card-1 {
+        position: absolute;
+        top: 125px;
+        right: -15px;
+    }
+
+    .custom-img-card-2 {
+        display: flex;
+        gap: 8px;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 421px;
+        left: -20px;
+    }
+
+    /* Change habit realted responsive */
+    .change-habit-all-cards-container {
+        display: flex;
+        flex-direction: column;
+        gap: 36px;
+        justify-content: space-between;
+    }
+
 }
